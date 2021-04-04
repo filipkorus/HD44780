@@ -27,6 +27,8 @@ void LCD_cmd(unsigned char cmd);
 void LCD_data(unsigned char data);
 void LCD_init();
 void LCD_print_str(char *str);
+void LCD_print_int(int n); // max n value = 32767
+void LCD_print_float(float n); // rounded to two decimal places
 void LCD_clear_screen();
 void LCD_cursor_top_left_corner();
 void LCD_move_cursor_right();
