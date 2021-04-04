@@ -8,6 +8,12 @@ C library for HD44780 LCD driver
 - Initialize LCD with `LCD_init()`.
 - Your LCD library is ready to use!
 
+### Default ports and delay
+* The default `bits` port is set to PORTD.
+* The default `select register` and `data read/write` ports are set to PORTC.
+* The `DELAY` makes text delay when appearing on the screen. Its value must be GREATER than 1 [ms].
+
+Every of those values can be changed in <a href="https://github.com/filipkorus/HD44780/blob/master/lcd/hd44780.h">`./lcd/hd44780.h`</a> file nearby the 20th line.
 ### LCD_init()
 ```c
 void LCD_init()
