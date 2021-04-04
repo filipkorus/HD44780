@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-#include "lcd/hd44780.h"
+#include "./lcd/hd44780.h"
 
 int main(void) {
 
