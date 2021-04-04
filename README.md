@@ -56,6 +56,7 @@ Print float (rounded to two decimal places) to LCD.
 
 ### All commands available
 ```c
+
 void LCD_cmd(unsigned char cmd);
 void LCD_data(unsigned char data);
 void LCD_init();
@@ -64,7 +65,8 @@ void LCD_print_int(int n);
 void LCD_print_float(float n);
 void LCD_clear_screen();
 void LCD_cursor_top_left_corner();
-void LCD_move_cursor_right();
+void LCD_cursor_dir_right();
+void LCD_cursor_dir_left();
 void LCD_2nd_line();
 void LCD_display_off();
 void LCD_display_on();
@@ -77,6 +79,8 @@ void LCD_shift_cursor_left();
 void LCD_shift_cursor_right();
 void LCD_shift_display_left();
 void LCD_shift_display_right();
+void LCD_cursor_left();
+void LCD_cursor_right();
 ```
 
 ## Scheme
