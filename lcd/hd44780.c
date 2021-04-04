@@ -52,6 +52,7 @@ void LCD_print_float(float n) {
 	snprintf(buf, sizeof(buf), "%d", (int)(n));
 	LCD_print_str(buf);
 	LCD_print_str(".");
+	if(n < 0) n = -n;
 	snprintf(buf, sizeof(buf), "%d", (int)(n*100)% 100);
 	LCD_print_str(buf);
 }
