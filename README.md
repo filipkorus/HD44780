@@ -32,19 +32,13 @@ void LCD_cursor_position(int x, int row)
 ```
 Set the cursor to the specified position.<br>
 For instance:
-* 1st character, 1st row: LCD_cursor_position(0, 0);
-* 5th character, 2nd row: LCD_cursor_position(4, 1);
-* 16th character (last one), 2nd row: LCD_cursor_position(15, 1);
+* LCD_cursor_position(0, 0) sets cursor to 1st character in 1st row
+* LCD_cursor_position(4, 1) sets cursor to 5th character in 2nd row
+* LCD_cursor_position(15, 1) sets cursor to 16th character (last one) in 2nd row
 
 ### LCD_print_str()
 ```c
-void LCD_print_str()
-```
-Print string to LCD.
-
-### LCD_print_str()
-```c
-void LCD_print_str()
+void LCD_print_str("Hello World")
 ```
 Print string to LCD.
 
