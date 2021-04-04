@@ -4,7 +4,7 @@ C library for HD44780 LCD driver
 ### Usage
 - Copy `lcd` folder into your project.
 - Include `./lcd/hd4470.h` file in `main.c`.
-- Connect your microcontroller to LCD driver as shown in <a href="https://github.com/filipkorus/HD44780/img/scheme.png" target="_blank">scheme</a>.
+- Connect your microcontroller to LCD driver as shown in <a href="https://github.com/filipkorus/HD44780//tree/master/img/scheme.png" target="_blank">scheme</a>.
 - Initialize LCD with `LCD_init()`.
 - Your LCD library is ready to use!
 
@@ -66,10 +66,10 @@ void LCD_shift_display_right();
 ```
 
 ## Scheme
-![scheme](https://github.com/filipkorus/HD44780/img/scheme.png)
+![scheme](https://github.com/filipkorus/HD44780/tree/master/img/scheme.png)
 
 ## Demostration
-![demostration](https://github.com/filipkorus/HD44780/img/demo.png)
+![demostration](https://github.com/filipkorus/HD44780/tree/master/img/demo.png)
 
 ## Sources
 * <a href="http://www.dinceraydin.com/lcd/commands.htm" target="_blank">http://www.dinceraydin.com/lcd/commands.htm</a>
