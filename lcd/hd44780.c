@@ -31,7 +31,7 @@ void LCD_init() {
 				// after VCC rises to 4.5 V
 	LCD_cmd(0x38); // enable 8-bit mode
 	LCD_cursor_blink_on();
-	LCD_move_cursor_right();
+	LCD_cursor_dir_right();
 	LCD_clear_screen();
 	LCD_cursor_position(0, 0);
 }
@@ -66,8 +66,12 @@ void LCD_cursor_top_left_corner() {
 	LCD_cmd(0x02);
 }
 
-void LCD_move_cursor_right() {
+void LCD_cursor_dir_right() {
 	LCD_cmd(0x06);
+}
+
+void LCD_cursor_dir_left() {
+	LCD_cmd(0x07);
 }
 
 void LCD_2nd_line() {
@@ -119,4 +123,12 @@ void LCD_shift_display_left(){
 
 void LCD_shift_display_right(){
 	LCD_cmd(0x1C);
+}
+
+void LCD_cursor_left() {
+	LCD_cmd(0x10);
+}
+
+void LCD_cursor_right() {
+	LCD_cmd(0x14);
 }
