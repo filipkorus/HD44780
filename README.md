@@ -66,10 +66,10 @@ void LCD_shift_display_right();
 ```
 
 ## Scheme
-![scheme](https://github.com/filipkorus/HD44780/tree/master/img/scheme.png)
+![scheme](https://github.com/filipkorus/HD44780/blob/master/img/scheme.png)
 
 ## Demostration
-![demostration](https://github.com/filipkorus/HD44780/tree/master/img/demo.png)
+![demostration](https://github.com/filipkorus/HD44780/blob/master/img/demo.jpg)
 
 ## Sources
 * <a href="http://www.dinceraydin.com/lcd/commands.htm" target="_blank">http://www.dinceraydin.com/lcd/commands.htm</a>
