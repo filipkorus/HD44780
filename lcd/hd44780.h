@@ -1,5 +1,5 @@
 /*
- *		Author: Filip Korus
+ *      Author: Filip Korus
  *	   Website: https://filipkorus.com
  * 	   Created: 3 April 2021
  * Description: simple library for LCD usage
