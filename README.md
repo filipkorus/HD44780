@@ -42,12 +42,26 @@ void LCD_print_str("Hello World")
 ```
 Print string to LCD.
 
+### LCD_print_int()
+```c
+void LCD_print_int(32767)
+```
+Print integer to LCD. Max value is 32676.
+
+### LCD_print_float()
+```c
+void LCD_print_float(3.14)
+```
+Print float (rounded to two decimal places) to LCD.
+
 ### All commands available
 ```c
 void LCD_cmd(unsigned char cmd);
 void LCD_data(unsigned char data);
 void LCD_init();
 void LCD_print_str(char *str);
+void LCD_print_int(int n);
+void LCD_print_float(float n);
 void LCD_clear_screen();
 void LCD_cursor_top_left_corner();
 void LCD_move_cursor_right();
